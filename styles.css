@@ -88,15 +88,19 @@ input {
     
 }
 
-button {
+.section-one button, .section-two button, .header-main button{
     border-radius:3px;
     position:absolute;
     margin-left:-66.5px;
     font-size:13px;
     padding:22.5px;
-    background-color:green;
+    background-color:#18a843;
     color:white;
     border:1px solid green;
+} 
+
+.header-main button:hover {
+    background-color:green;
 } 
      
 
@@ -242,41 +246,48 @@ button {
 #honda {
     grid-column:1/2;
     grid-row:1/2;
-    background-color:blue;
+    
 } 
+
 
 #ford {
     grid-column:2/3;
     grid-row:1/2;
-    background-color:red;
+    
 } 
 
 #toyota {
     grid-column:1/2;
     grid-row:2/3;
-    background-color:green;
+    
 } 
     
 #chevy {
     grid-column:2/3;
     grid-row:2/3;
-    background-color:yellow;
+    
 } 
 
 #nissan {
     grid-column:1/2;
     grid-row:3/4;
-    background-color:tan;
+    
 } 
 
 #mustang {
     grid-column:2/3;
     grid-row:3/4;
-    background-color:orange;
+    
 } 
 
-.grid-container div {
+.make {
     border-radius:5px;
+    display:flex;
+    background-color:white;
+    align-items:center;
+    overflow:hidden;
+    font-weight:bold;
+    font-size:22px;
 }  
 
 #view-button {
@@ -296,3 +307,154 @@ button {
     background-color:#00A3D9;
     color:white;
 } 
+
+.make:hover {
+    box-shadow:2px 2px 4px lightgray;
+} 
+
+.make img {
+    width:130px;
+    height:70px;
+    position:absolute;
+    left:50px;
+}
+
+
+.circle {
+    position:relative;
+    width:150px;
+    height:150px;
+    background-color:#2f7eed;
+    border-radius:100px;
+    right:40px;
+} 
+
+#honda p {
+    position:absolute;
+    left:225px;
+}
+
+#toyota p {
+    position:absolute;
+    left:225px;
+}
+
+#nissan p {
+    position:absolute;
+    left:225px;
+}
+
+#ford p {
+    position:absolute;
+    left:795px;
+}
+
+#chevy p {
+    position:absolute;
+    left:795px;
+}
+
+#mustang p {
+    position:absolute;
+    left:795px;
+}
+
+#ford img, #chevy img, #mustang img {
+    left:620px;
+} 
+
+span {
+    color:white;
+    
+} 
+
+#last-item{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    bottom:5px;
+} 
+
+.section-three {
+    border:2px solid green;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:125px;
+} 
+
+.featured-section {
+    margin-top:50px;
+    width:90%;
+    height:300px;
+}
+
+.featured-section img {
+    width:100%;
+    height:300px;
+    position:relative;
+}
+
+.featured-section h4 {
+    position:absolute;
+    z-index:2;
+    font-size:30px;
+    left:100px;
+    color:white;
+    
+}  
+
+
+.featured-section p {
+    position:relative;
+    z-index:3;
+    bottom:185px;
+    left:30px;
+    color:white;
+    
+}  
+
+
+ 
+.featured-section button {
+    position:relative;
+    width:200px;
+    z-index:4;
+    bottom:150px;
+    left:75px;
+    border:1px solid black;
+    padding:20px;
+}  
+
+.tables {
+    width:95%;
+    margin-bottom:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}  
+
+table {
+    width:70%;
+    height:200px;
+}  
+
+caption {
+    text-align: left;
+    color:#143552;
+    font-weight:bold;
+} 
+
+td {
+    color:#00A3D9;
+    width:175px;
+    height:30px;
+} 
+
+.more {
+    font-weight:bold;
+} 
+
+

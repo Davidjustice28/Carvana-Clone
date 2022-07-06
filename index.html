@@ -4,13 +4,17 @@
     <meta src = "UTF-8">
     <title>Carvana Clone</title>
     <link href = "styles.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
 	<nav class = "top-navbar">
 		<div class = "top-nav-items">
 			<a class = "nav-main-items">HOW IT WORKS</a>
 			<a class = "nav-main-items">ABOUT CARVANA</a>
-			<a>SUPPORT & CONTACT</a>
+			<a id = "last-item">SUPPORT & CONTACT<span class="material-symbols-outlined">
+arrow_drop_down
+</span>
+</a>
 		</div>
 	</nav>
 	
@@ -63,15 +67,112 @@
 	<div class = "section-two">
 		<h3>Shop Great Values</h3>
 		<div class = "grid-container">
-			<div id = "honda">1</div>
-			<div id = "ford">2</div>
-			<div id = "toyota">3</div>
-			<div id = "chevy">4</div>
-			<div id = "nissan">5</div>
-			<div id = "mustang">6</div>
+			<div class = "make" id = "honda">
+				<div class = "circle"></div>
+				<img src = "./images/Redcar_new.png"> 
+				<p>Honda Fit</p>
+			</div>
+			<div class = "make" id = "ford">
+				<div class = "circle"></div>
+				<img src = "./images/Jeep.png">
+				<p>Jeep Wrangler</p>
+			</div>
+			<div class = "make" id = "toyota">
+				<div class = "circle"></div>
+				<img src = "./images/Van.png">
+				<p>Volkswagen Type 2</p>
+			</div>
+			<div class = "make" id = "chevy">
+				<div class = "circle"></div>
+				<img src = "./images/Hatchback.png" >
+				<p>Audi A3</p>
+			</div>
+			<div class = "make" id = "nissan">
+				<div class = "circle"></div>
+				<img src = "./images/Trucker.png">
+				<p>Ford F150</p>
+			</div>
+			<div class = "make" id = "mustang">
+				<div class = "circle"></div>
+				<img src = "./images/SUV.png">
+				<p>Kia Sorento</p>
+			</div>
 		</div>
 		<button type = "button" id = "view-button">VIEW ALL</button>
-	</div>			
+	</div>
+	
+	<div class = "section-three">
+		<div class = "featured-section">
+			<h4>CROSS COUNTRY ROAD TRIP<br>WITH DAVID JUSTICE</h4>
+			<img src = "./images/Driving.png">
+			<p>Revved up, race-ready, and in gear for the 2022 IndyCar Season. Let’s go!</p>
+			<button type = "button">EXPLORE NOW</button>
+		</div>
+		
+		<div class = "tables">
+			<table>
+				<caption>BROWSE BY POPULAR MAKES & MODELS</caption>
+				<tr>
+					<td>Jeep Wrangler</td>
+					<td>Tesla Model 3</td>
+					<td>Ford Mustang</td>
+				</tr>
+				<tr>
+					<td>Dodge Charger</td>
+					<td>Toyota 4Runner</td>
+					<td>Dodge Challenger</td>
+				</tr>
+				<tr>
+					<td>Ford Explorer</td>
+					<td>Honda Civic Type R</td>
+					<td>Chevrolet Camaro</td>
+				</tr>
+				<tr>
+					<td class = "more">VIEW MORE</td>
+				</tr>	
+			</table>
+		
+			<table class = "styles">
+				<caption>BROWSE BY STYLES</caption>
+				<tr>
+					<td>Used Sedans</td>
+					<td>Used SUVS</td>
+					<td>Used Wagons</td>
+				</tr>
+				<tr>
+					<td>Used Coupes</td>
+					<td>Used Convertibles</td>
+					<td>Used Hatchbacks</td>
+				</tr>
+				<tr>
+					<td>Used Minivans</td>
+					<td>Used Trucks</td>
+				</tr>
+			</table>
+			
+			<table>
+				<caption>BROWSE BY LOCACTIONS</caption>
+				<tr>
+					<td>Used Cars In Atlanta GA</td>
+					<td>Used Cars In Austin TX</td>
+					<td>Used Cars In Baltimore MD</td>
+				</tr>
+				<tr>
+					<td>Used Cars In Boston MA</td>
+					<td>Used Cars In Brooklyn NY</td>
+					<td>Used Cars In Charlotte NC</td>
+				</tr>
+				<tr>
+					<td>Used Cars In Chicago IL</td>
+					<td>Used Cars In Dallas TX</td>
+					<td>Used Cars In Denver CO</td>
+				</tr>
+				<tr>
+					<td class = "more">VIEW MORE</td>
+				</tr>	
+			</table>
+		</div>
+	</div>							
 </body>
 </html> 
     
