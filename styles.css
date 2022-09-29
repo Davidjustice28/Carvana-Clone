@@ -1,5 +1,14 @@
+html {
+    margin:0;
+    height: 100vh;
+    width: 100vw;
+}
+
 body {
     font-family:Arial;
+    margin:0;
+    height: 100vh;
+    width: 100vw;
 }
  
 .top-navbar {
@@ -25,7 +34,6 @@ body {
 } 
 
 .second-navbar {
-    border:1px hidden green;
     width:100%;
     height:70px;
     display:flex;
@@ -59,7 +67,7 @@ body {
 } 
 
 header {
-    border:1px solid green;
+    border: 1px solid black;
     text-align:center;
     width: 100%;
     height:500px;
@@ -79,7 +87,6 @@ h1 {
 }
 
 input {
-    border-radius:;
     font-size:17px;
     margin-bottom:15px;
     position:relative;
@@ -292,7 +299,7 @@ input {
 
 #view-button {
     position:relative;
-    left:525px;
+    left: 43%;
     padding-left:100px;
     padding-right:100px;
     margin-top:60px;
@@ -379,7 +386,6 @@ span {
 } 
 
 .section-three {
-    border:2px solid green;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -459,3 +465,19 @@ td {
 } 
 
 
+#ford img, #chevy img, #mustang img {
+    position: absolute;
+    left: 53%;
+}
+
+#ford p, #chevy p, #mustang p {
+    position: absolute;
+    left: 65%;
+}
+
+.header-main button {
+    background-color: #2868a1;;
+    height: 65px;
+    border:none;
+    border: 2px solid #2868a1;
+}
